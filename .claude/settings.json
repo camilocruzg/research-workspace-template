@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && for f in _control/context.md _control/projects.md _control/open-loops.md; do echo \"=== $f ===\"; cat \"$f\"; done"
+          }
+        ]
+      }
+    ]
+  }
+}
