@@ -4,7 +4,7 @@ A plain-folder workspace that gives Claude Code a memory of your work across day
 
 Nothing here is an app. It is a folder of text files and instructions, so you can read, edit or delete any of it.
 
-For the reasoning behind the design, see the accompanying write-up: [link to gist].
+For the reasoning behind the design, see the accompanying write-up: [A workspace that remembers](https://gist.github.com/camilocruzg/40666a858efd22c0d4408f38d0547621).
 
 ## What you need
 
